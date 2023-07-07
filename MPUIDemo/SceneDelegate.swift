@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  PingDemo
+//  MPUIDemo
 //
 //  Created by 朱彥睿 on 2023/7/5.
 //

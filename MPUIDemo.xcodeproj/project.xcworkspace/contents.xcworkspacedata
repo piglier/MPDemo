@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/zhuyanrui/Desktop/Demo/MPUIDemo/MPUIDemo.xcodeproj">
    </FileRef>
 </Workspace>

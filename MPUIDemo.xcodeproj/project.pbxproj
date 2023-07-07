@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531BF4C02A57F87E0026D57B /* MPUIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 531BF4BE2A57F87E0026D57B /* MPUIDemo.xcdatamodeld */; };
 		5339BB0B2A553E1D006F3983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339BB0A2A553E1D006F3983 /* AppDelegate.swift */; };
 		5339BB0D2A553E1D006F3983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339BB0C2A553E1D006F3983 /* SceneDelegate.swift */; };
 		5339BB0F2A553E1D006F3983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339BB0E2A553E1D006F3983 /* ViewController.swift */; };
 		5339BB122A553E1D006F3983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5339BB102A553E1D006F3983 /* Main.storyboard */; };
-		5339BB152A553E1D006F3983 /* PingDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5339BB132A553E1D006F3983 /* PingDemo.xcdatamodeld */; };
 		5339BB172A553E1E006F3983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5339BB162A553E1E006F3983 /* Assets.xcassets */; };
 		5339BB1A2A553E1E006F3983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5339BB182A553E1E006F3983 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5339BB072A553E1D006F3983 /* PingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		531BF4BF2A57F87E0026D57B /* PingDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PingDemo.xcdatamodel; sourceTree = "<group>"; };
+		5339BB072A553E1D006F3983 /* MPUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5339BB0A2A553E1D006F3983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5339BB0C2A553E1D006F3983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5339BB0E2A553E1D006F3983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5339BB112A553E1D006F3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5339BB142A553E1D006F3983 /* PingDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PingDemo.xcdatamodel; sourceTree = "<group>"; };
 		5339BB162A553E1E006F3983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5339BB192A553E1E006F3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5339BB1B2A553E1E006F3983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		5339BAFE2A553E1D006F3983 = {
 			isa = PBXGroup;
 			children = (
-				5339BB092A553E1D006F3983 /* PingDemo */,
+				5339BB092A553E1D006F3983 /* MPUIDemo */,
 				5339BB082A553E1D006F3983 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		5339BB082A553E1D006F3983 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5339BB072A553E1D006F3983 /* PingDemo.app */,
+				5339BB072A553E1D006F3983 /* MPUIDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5339BB092A553E1D006F3983 /* PingDemo */ = {
+		5339BB092A553E1D006F3983 /* MPUIDemo */ = {
 			isa = PBXGroup;
 			children = (
 				5339BB0A2A553E1D006F3983 /* AppDelegate.swift */,
@@ -65,17 +65,17 @@
 				5339BB162A553E1E006F3983 /* Assets.xcassets */,
 				5339BB182A553E1E006F3983 /* LaunchScreen.storyboard */,
 				5339BB1B2A553E1E006F3983 /* Info.plist */,
-				5339BB132A553E1D006F3983 /* PingDemo.xcdatamodeld */,
+				531BF4BE2A57F87E0026D57B /* MPUIDemo.xcdatamodeld */,
 			);
-			path = PingDemo;
+			path = MPUIDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5339BB062A553E1D006F3983 /* PingDemo */ = {
+		5339BB062A553E1D006F3983 /* MPUIDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5339BB1E2A553E1E006F3983 /* Build configuration list for PBXNativeTarget "PingDemo" */;
+			buildConfigurationList = 5339BB1E2A553E1E006F3983 /* Build configuration list for PBXNativeTarget "MPUIDemo" */;
 			buildPhases = (
 				5339BB032A553E1D006F3983 /* Sources */,
 				5339BB042A553E1D006F3983 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PingDemo;
+			name = MPUIDemo;
 			productName = PingDemo;
-			productReference = 5339BB072A553E1D006F3983 /* PingDemo.app */;
+			productReference = 5339BB072A553E1D006F3983 /* MPUIDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5339BB022A553E1D006F3983 /* Build configuration list for PBXProject "PingDemo" */;
+			buildConfigurationList = 5339BB022A553E1D006F3983 /* Build configuration list for PBXProject "MPUIDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5339BB062A553E1D006F3983 /* PingDemo */,
+				5339BB062A553E1D006F3983 /* MPUIDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5339BB152A553E1D006F3983 /* PingDemo.xcdatamodeld in Sources */,
 				5339BB0F2A553E1D006F3983 /* ViewController.swift in Sources */,
+				531BF4C02A57F87E0026D57B /* MPUIDemo.xcdatamodeld in Sources */,
 				5339BB0B2A553E1D006F3983 /* AppDelegate.swift in Sources */,
 				5339BB0D2A553E1D006F3983 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2N5GMFKQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PingDemo/Info.plist;
+				INFOPLIST_FILE = MPUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TWM.PingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = TWM.MPUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2N5GMFKQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PingDemo/Info.plist;
+				INFOPLIST_FILE = MPUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TWM.PingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = TWM.MPUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5339BB022A553E1D006F3983 /* Build configuration list for PBXProject "PingDemo" */ = {
+		5339BB022A553E1D006F3983 /* Build configuration list for PBXProject "MPUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5339BB1C2A553E1E006F3983 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5339BB1E2A553E1E006F3983 /* Build configuration list for PBXNativeTarget "PingDemo" */ = {
+		5339BB1E2A553E1E006F3983 /* Build configuration list for PBXNativeTarget "MPUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5339BB1F2A553E1E006F3983 /* Debug */,
@@ -364,13 +364,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5339BB132A553E1D006F3983 /* PingDemo.xcdatamodeld */ = {
+		531BF4BE2A57F87E0026D57B /* MPUIDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5339BB142A553E1D006F3983 /* PingDemo.xcdatamodel */,
+				531BF4BF2A57F87E0026D57B /* PingDemo.xcdatamodel */,
 			);
-			currentVersion = 5339BB142A553E1D006F3983 /* PingDemo.xcdatamodel */;
-			path = PingDemo.xcdatamodeld;
+			currentVersion = 531BF4BF2A57F87E0026D57B /* PingDemo.xcdatamodel */;
+			path = MPUIDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
